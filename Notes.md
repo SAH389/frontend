@@ -1,179 +1,166 @@
-1. HTML
-2. CSS
-3. JS
-4. Bootstrap. 
-5. React
-6. GitHub
+RWD - Responsive Web Design
+Semantic Tags - (Header, Section, Footer)
+* -> Universal Tag For all the pages in the website
+CSR - Client Side Rendering
+12/2/26
+1.HTML
+2.CSS
+3.JS
+4.Bootstrap, --Tailwind
+5.React
+6.GitHub
 
 
- Front-End 
-1. HTML
-2. Css
-3. JS
-4. React
-5. Bootstrap
-6. Vuejs
-7. Angular
-8. Next js
-9. PHP
+1.Front-End
+1.HTML
+2.CSS
+3.JS
+4.REACT
+5.Bootstrap
+6.Vue js
+7.Angular
+8.Next js
+9.PHP
 
 
 Backend
-1. DataBase
-2. Java
-3. Python
-5. PHP
+1.Database
+2.Java
+3.Python
+4.php
+5.API'S
+6.Node.ja
+7.Express js
+8.spring boot
+Nuxt .js
 
-7. Nodejs
-8. Express js
-9. Spring boot
-10. NUxt js
+Database
+1.SQL
+2,MySql
+3.Postgres
+4.Oracle
+5.MongoDb
 
+13/2/26
+wc3-world wide web
 
-DataBase
+website is the collection of web pages
 
-1. SQl
-2. Mysql
-3. postgresql
-4. Oracle
-5. Mongodb
+how to choose 1 or 2
 
-
-w3c - world wide web 
-
-website is a collection of webpages
-
-
-
-
-                cloud(aws/azure)/local server
-FrontEnd.                Laptop(server)                           Backend
-            Req
------------------------->(10-15s)
-
+1.based on the usage and requirement
+2.backend content changes updated date
+4.based on the content
+5.based on the response we get
+6.based on the server config
+user friendly--any one can use==ux
 
 
-        Res
-<------------------------
+        cloud(aws/azure)/local server
+website             server               backend
+frontend            laptop(server)       backend
+| | |req
+------------------->
+|
+|
+|
+|
+     res
+<---------------------
 
 
 
-1. Static.  = A website where pages are already created and the server sends the same fixed content to every user.
+1.static= = A website where pages are already created and the server sends the same fixed content to every user.
 some set of content
-1. set of webpages = 5
+1.set of webpages=5
 
+2.dynamic = A website where pages are generated at request time using server logic and data.
+content  updates accordingly you configure
+1.set of webpages=3
 
-2. Dynamic.  = A website where pages are generated at request time using server logic and data.
-content updates accordiongly you configure
-1. set of  webpages = 3
-
-
-How to choose 1 0r 2
-
-1. based on the usage &  requi
-2. backend content chanegs updated data
-5. based on the response we get
-6. based ion the server config
-7. USer friendly -- Any Once can use. == UX
-
-meta data :
-
+meta data:
 abc.pdf =
  size
  name
 
+cursor
 
- UTF = Unicode transformation format in bits
+16/02/26
 
- 8bit = 
+UTF=unicode transformation format in bits
 
- RWD = Responsive web design. = own code. //  Bootsttrap / Tailwind //
+8 bits
 
+RWD-responsive web design.==bootstrap/tailwind//own code
 
- sementic tags
+sementic tags
+1.<header>
+2.<footer>
+3.<section>
 
- 1. <header>
- 2. <section>
- 3. <footer>
-
-
- Attribute           =  Attribute value
- background-color.   =  somecolor
- margin              =  some px/em/rem
- padding             = some px/em/rem
- height              = some px/em/rem
- width               = some px/em/rem
-
-
-
- 1. browser
- 2. request to server
- 3. js content loading. response reading in client side or server side   CSR . SSR. == react . angular
- 4. html content load with stylings
+attribute  =attribute value
+background-color =somecolor
+margin=some px/em/rem
+padding=px/em/rem
+height=px/em/rem
+width=px/em/rem
 
 
- API.                     |            Webhooks
+1.browser
+2.request to server
+3.js content loading.in client side or server side CSR ,SSR==react,angular
+4.html content load with stylings
 
- 1. Application Program Interface. - Requesting data from server and expecting response
+API.            |       webhooks
+1.Application programming interface-requesting data from server and expecting response
 
+2.webhooks.-server serves the data
 
- 2.Webhooks.  - Server Serves the data
+17/2/26
+margin/padding:10px,0px
 
+top,-right,-bottom. -left
 
+<ol>
+<li>
 
+1.
+2.
+3.
+4.
 
- Margin / padding. : 10px.  0px
+<ul>
+<li>
 
+.
+.
+.
 
- Top. -   Right.   - Bottom.    - Left
+web storage
 
+1.local
+2.session
 
-
-
- <ol>
- <li> 
-  <li>
-   <li>
-
-
-
- 1. 
- 2. 
- 3. 
- 4. 
-
- <ul>
- <li>
- .
- .
- .
- 
-
-
- Web Storage 
- 1. local
- 2. scession
-
-
- cookies
-
- 1.Inline 
+cookies
+1.Inline 
  2. External 
 3. Internal
-
 
 Class = .
 Id = #
 tag = <tag>
 
-Technical Concepts :
-1. Media Queries
-2. Cookies
-3. Web Storage (Local & Session)
+18/2/26
 
-<a>
+18/2/2026
+1. why we use class and why we use id
+2. why do we write meta data in html
+3. what is phrase titke and meta title but now meta title have been removed from the google
+4.anker tag
 
-Media Queries 
+19/2/2026
+
+Media Queries
 
 `@media` is a CSS at-rule that is used to apply specific styles based on the characteristics of the
 device or viewport. It allows you to create responsive designs by targeting different screen sizes,
@@ -181,111 +168,122 @@ resolutions, and orientations. By using `@media`, you can define different style
 devices, ensuring that your website looks good and functions well across various platforms.
 
 
+// to create a table in html 
 <table>
 
 <tr>
 
 <thead>
+<tbody>
 
 <td>
 
-Form Controls :
+form controls:
 
-1. Button
-2. checkbox
-3. radio buttons
-4. search
-5. date
-6. time
-7. text
+1.button
+2.checkbox
+3.radio buttons
+4.search
+5.date
+6.time
+7.text
 
+20/2/26
 
-1. Save fn
-2. Update fn
-3. Delete fb
+1.align-items
 
+flex-start
+flex-end
 
-CRUD - 
-Create 
-Read
-Update
-Delete
+2.justify content
 
+space between
+space around
 
-Cookies (4kb) :  1000 lines
-Cookies are small text files stored in your browser by websites you visit. They help websites remember information about you between visits.
+function
+1.save fn
+2.update fn
+3.delete fn
 
+CRUD
 
-1 mb = 1024kb
+create
+read
+update
+delete
 
+23/2/26
 
-Cookies = user identity & authentication between browser and server
+Cookies(4kb):1000lines
 
-webstorage (5mb)
-Web Storage = frontend application state & user preferences
+cookies are small text files stored in your browser by websites you visit.They help websites remember information about you between visits.
 
-1. local storage 
+cookies:=user identity & authentication between browser and server
 
-2. session storage
+webstorage(5mb):
+web storage=frontend application  state and user preferences.
 
+1.local storage
+2.session storage
 
 Local
-1. Local storage is a web storage feature that allows websites
-to store data in the browser with no expiration time.
-2. This means the data remains available even after the user closes
-and reopens the browser or the system is restarted. 
-3. It is typically used to save long-term data such as
-user preferences, themes, or login tokens.
+
+1.Local storage is a web storage feature that allows websites to store data in the browser with no expirationtime.
+2.This means the data remains availabe even after the user closes and reopens the browser or the system is restarted.
+3.It is typically used to save long-term data such as user preferences,themes,or login tokens.
+
+
 
 session
-1. Session storage is also a browser-based storage method, 
-but it only stores data for the duration of a single browser tab session. 
-2. Once the tab is closed, all session storage data is automatically deleted. 
-3. It is useful for storing temporary data like form inputs or 
-navigation steps that don’t need to persist beyond the current session. 
-4. Unlike local storage, session storage is not shared across 
-tabs — each tab has its own session. 
 
-Git :- 
-Git is a distributed version control system that helps you track changes in your code, save different versions of your project, and work with others without overwriting each other’s work. It allows you to create branches, experiment safely, and easily go back to older versions whenever needed.
+1. session storage is also a browser-based storage method,
+but it only stores data for the duration of a single browser tab session.
+2. once the tab is closed, all the session storage data is automatically deleted.
+3. It is useful for storing temporary data like form inputs or navigation steps that dont need to persist beyond the current session.
+4.unlike local storage,session storage is not shared accross tabs-each tab has its own session.
 
-Git -> Tool for version control (local machine).
+collabrate:
 
-GitHub -> Website (by microsoft) to store & manage Git repositories online.
+Git:-
+Git is the distributed version control system that helps you track changes in your code,save different versions of your project,and work with others without overwriting each others's work.It allows you to create branches,experiment safely,and easily go back to the older version whenever needed.
 
-Git Code Commit 
+Git-->Tool for version control(local machine)
 
-Push=upload
-Pop=Delete
+Git hub-->Website(by microsoft) to store and manage git repositories online,
+
+git code commit
+
+push=upload
+pop=delete
 pull=download
 
+fundamental commands
 
-Fundamental commands
+1.git init-initialize a remote repo
 
-1. git init – initialize a remote repo 
+2.git add-Add files to staging
 
-2. git add – Add files to staging
+3.git commit-save changes to local repo
 
-3. git commit – Save changes to local repo
+4.git status-show file changes
 
-4. git status – Show file changes
+5.git clone-copy a remote repo
 
-5. git clone – Copy a remote repo
+6.git push-upload commits to remote
 
-6. git push – Upload commits to remote
+7.git pull--download and merge from remote
 
-7. git pull – Download and merge from remote
+8.git branch-show branches
 
-8. git branch – Show branches
+9.git checkout-switch branches
 
-9. git checkout – Switch branches
+10.git remote -v --show connected remote repo
 
-10. git remote -v – Show connected remote repo
+24/2/26
 
+used daily in real project commands
 
-Used daily in real project commands
-
-11. git log – View commit history
+11.git log --view commit history
 
 12. git merge – Merge another branch
 
@@ -323,8 +321,3 @@ RWD
 Responsive Web Design
 1.Bootstrap will adjust components based on the screen size.
 2.Bootstrap is a CSS framework that helps you build responsive and modern websites quickly using pre-designed components.
-
-
-
-
-
