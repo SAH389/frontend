@@ -303,15 +303,29 @@ used daily in real project commands
 
 20. git diff – See the difference between versions
 
-git -v
-git init
-git status
-git add .
-git commit -m "first commit"
-git status
-git remote add origin https://github.com/SAH389/frontend.git
-git branch -M main
-git push -u origin main
+GIT COMMANDS TO PUSH A PROJECT:
+
+1.git -v
+2.git init
+3.git status
+4.git add .
+5.git commit -m "first commit"
+6.git status
+7.git remote add origin https://github.com/SAH389/frontend.git
+8.git branch -M main
+9.git push -u origin main
+
+GIT COMMANDS TO CLONE /MAKE CHANGES - PUSH AGAIN:
+1.git clone (url link)
+2.cd (path)...........modify
+3.git status   
+4.git add .
+5.git commit -m "Update index.html with latest changes"
+6. git push -u origin main
+
+TO CHECK WHO COMMITED OUR PROJECT:
+
+git log -2
 
 
 Bootstrap
