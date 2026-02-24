@@ -303,6 +303,17 @@ used daily in real project commands
 
 20. git diff – See the difference between versions
 
+git -v
+git init
+git status
+git add .
+git commit -m "first commit"
+git status
+git remote add origin https://github.com/SAH389/frontend.git
+git branch -M main
+git push -u origin main
+
+
 Bootstrap
 
 UTF-8
