@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.List-Style-class {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+
+
+h1{
+    font-size: 32px;
+}
+
+@media (max-width:600px){
+    h1{
+        font-size: 12px;
+    }
+    .List-Style-class {
+    flex-direction: column;
+    list-style: none;
+    gap: 20px;
+}
+}
+
+/* table {
+    border-collapse: collapse;
+} */
+
+th,
+td {
+    border: 1px solid black;
+}
